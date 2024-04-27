@@ -1,0 +1,164 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.header {
+
+  background-color: #eee;
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+  color: rgb(100, 183, 255);
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+header h1 {
+  background-color: palevioletred;
+  text-align: center;
+  color: white;
+  margin: -8px;
+  padding: 20px;
+
+}
+
+nav {
+  background-color: palevioletred;
+  margin: -18px -8px 0px;
+  padding-bottom: 7px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.section-1 {
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0px;
+  background-image: url(../css/ice-cream-5666480_640.webp);
+  opacity: 70%;
+  color: rgb(0, 0, 0);
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.section-1 p {
+  text-align: center;
+  font-size: 27px;
+}
+
+hr {
+  margin: 0px 100px;
+}
+
+.section-2 {
+  text-align: center;
+
+}
+
+
+.section-5,
+.section-4,
+.section-3 {
+  border: 1px solid palevioletred;
+  border-radius: 30px;
+  /* width: 700px; */
+  padding: 20px;
+  /* margin: auto; */
+  margin: 20px 0px;
+  text-align: center;
+  background-color: antiquewhite;
+
+}
+
+.section-5,
+.section-4,
+.section-3 p {
+  font-size: 20px;
+
+}
+
+.section-5 img,
+.section-4 img,
+.section-3 img {
+  width: 150px;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgb(230, 98, 142);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0px -8px -8px;
+
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+
+}
+
+footer ul li {
+  display: inline;
+  margin: 0px 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+/*button {
+  padding: 10px;
+  background-color: rgb(230, 98, 142);
+  color: white;
+  border-radius: 10px;} */
+button {
+  background-color: rgb(230, 98, 142);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #555;
+}
